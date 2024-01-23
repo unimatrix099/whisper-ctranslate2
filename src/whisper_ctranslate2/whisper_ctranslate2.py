@@ -1,14 +1,14 @@
 import os
-from .transcribe import Transcribe, TranscriptionOptions
-from .languages import from_language_to_iso_code
+from transcribe import Transcribe, TranscriptionOptions
+from languages import from_language_to_iso_code
 import numpy as np
 import warnings
 from typing import Union, List
-from .writers import get_writer
-from .live import Live
+from writers import get_writer
+from live import Live
 import sys
 import datetime
-from .commandline import CommandLine
+from commandline import CommandLine
 
 
 def get_diarization(audio, diarize_model, verbose):

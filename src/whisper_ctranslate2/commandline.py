@@ -1,6 +1,6 @@
 import argparse
-from .languages import LANGUAGES, TO_LANGUAGE_CODE
-from .version import __version__
+from languages import LANGUAGES, TO_LANGUAGE_CODE
+from version import __version__
 
 MODEL_NAMES = [
     "tiny",
